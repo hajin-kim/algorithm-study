@@ -169,7 +169,7 @@ int optimized(const vector<int>& signals, int k) {
 
 - 투 포인터
 - 현재 구간의 합이 K보다 작다면 tail을 옮겨서 구간의 합을 increase
-- 현재 구간의 합이 K보다 크다면 head를 옮겨서 구간의 합을 decrease
+- 현재 구간의 합이 K보다 크거나 같다면 head를 옮겨서 구간의 합을 decrease
 - 이렇게 하면 head와 tail의 이동이 최대 N번 발생하므로, 선형시간이 됩니다!
 
 온라인 알고리즘 만들기
@@ -190,7 +190,7 @@ int countRanges(int k, int n) {
 
         // 구간에서 필요 없어진 숫자를 제거
         while (rangeSum > k) {
-            rangeSum -= range.fromt();
+            rangeSum -= range.front();
             range.pop();
         }
 
