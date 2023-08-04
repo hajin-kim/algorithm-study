@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/1072
+// https://www.acmicpc.net/problem/1072 s3
 
 fun main(args: Array<String>) {
     val (nGames, nWins) = readln().split(" ").map { it.toLong() }
