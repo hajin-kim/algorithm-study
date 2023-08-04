@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/1918
+// https://www.acmicpc.net/problem/1918 g2
 
 // 새 연산자의 우선순위가
 // 더 큼 -> push to stack

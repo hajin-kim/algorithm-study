@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/13335
+// https://www.acmicpc.net/problem/13335 s1
 
 import java.util.*
 

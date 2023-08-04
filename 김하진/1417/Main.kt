@@ -1,6 +1,6 @@
 import java.util.*
 
-// https://www.acmicpc.net/problem/1417
+// https://www.acmicpc.net/problem/1417 s5
 
 // disclaimer: 어떠한 정치적 의도도 없습니다.
 
